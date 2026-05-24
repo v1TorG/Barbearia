@@ -330,48 +330,48 @@ iframe {
     }
 }
 
-footer{
-    background:var(--cor09);
-    color:white;
-    padding:50px 40px;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    flex-wrap:wrap;
-    gap:150px;
+footer {
+    background: var(--cor09);
+    color: white;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
 
-    P{
-        font-size:0.8rem;
+    P {
+        font-size: 0.8rem;
     }
 }
 
-.footer-left{
+.footer-left {
 
-    max-width:400px;
+    max-width: 400px;
 }
 
-.footer-left img{
-    width:100px;
-    margin-bottom:20px;
+.footer-left img {
+    width: 100px;
+    margin-bottom: 20px;
 }
 
-.footer-right{
-    
-    text-align:right;
+.footer-right {
+
+    text-align: right;
 }
 
 
 
-.criador{
-    font-size:0.8rem;
-    text-align:center;
-    padding-top:20px;
+.criador {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 20px;
 }
 
-.criador a{
-    color:#c59d5f;
-    text-decoration:none;
-    
+.criador a {
+    color: #c59d5f;
+    text-decoration: none;
+
 }
 
 @keyframes slideText {
@@ -389,6 +389,13 @@ footer{
 
 @media(max-width:800px) {
 
+    .inicio h1 {
+        font-size: 1.8rem;       
+    }
+    .inicio p {
+        font-size: 1rem;
+    }
+
     .cards {
         flex-direction: column;
         align-items: center;
@@ -401,6 +408,7 @@ footer{
 
         padding: 15px;
     }
+
 
     .card img {
         width: 20%;
@@ -438,29 +446,31 @@ footer{
         max-width: 650px;
     }
 
-      footer{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        gap:15px;
-        padding:30px 15px;
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding: 30px 15px;
     }
 
-    .footer-left, .footer-right{
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        gap:10px;
+    .footer-left,
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 
-    .footer-left p,.footer-right p{
-        margin:0;
+    .footer-left p,
+    .footer-right p {
+        margin: 0;
     }
 
-    .footer-left img{
-        margin-bottom:10px;
+    .footer-left img {
+        margin-bottom: 10px;
     }
 
 }
