@@ -112,6 +112,7 @@ p {
 }
 
 img {
+    padding-top: 30px;
     display: block;
     margin: auto;
 }
